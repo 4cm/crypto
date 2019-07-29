@@ -1,0 +1,36 @@
+{
+	"name": "4cm/crypto",
+	"type": "library",
+	"description": "A two-way encryption method for PHP.",
+	"keywords": ["php", "encryption", "security"],
+	"homepage": "https://4cm.com/",
+	"license": "MIT",
+	"authors": [
+		{
+		    "name": "John Abela",
+		    "homepage": "https://johnabela.com",
+		    "role": "Developer"
+		},
+		{
+		    "name": "4CM Network",
+		    "email": "support@4cm.com",
+		    "homepage": "https://4cm.com/",
+		    "role": "Provider"
+		}
+	],
+	"support": {
+		"email": "support@4cm.com",
+		"source": "https://github.com/4cm/crypto/",
+		"issues": "https://github.com/4cm/crypto/issues",
+		"docs": "https://github.com/4cm/crypto/wiki"
+	},
+	"readme": "https://github.com/4cm/crypto/README.md",
+	"require": {
+		"php": ">=7.2.0",
+		"ext-sodium": "*"
+	},
+	"minimum-stability": "stable",
+    "psr-0": {
+      "4cm": "src/"
+    }
+}
