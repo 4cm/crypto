@@ -1,6 +1,4 @@
 <?php
-namespace \4cm\crypto;
-
 class crypto
 {
     private $keypath;
