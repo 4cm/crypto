@@ -30,7 +30,7 @@
 		"ext-sodium": "*"
 	},
 	"minimum-stability": "stable",
-    "psr-0": {
-      "4cm": "src/"
-    }
+	"autoload": {
+		"files": ["src/crypto.php"]
+	}
 }
